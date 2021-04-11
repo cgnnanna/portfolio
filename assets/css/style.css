@@ -1,0 +1,120 @@
+/* ------color: #10365c;
+    color:#0f6a89; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    max-width: 100vw;
+}
+h1,h2{
+    color: #10365c;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 20px;
+    color: #237688;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 16px;
+    color: #237688;
+}
+div.template-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 0 100px;
+    color: #2f5d66;
+    width: 100%;
+}
+div.template-display-wrapper{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 40%;
+    padding: 100px 0 100px 60px;
+    border-top: 10px solid #10365c;
+    border-right: 10px solid #10365c;
+    border-bottom: 10px solid #10365c;
+}
+#template-image-box{
+    height: 500px;
+}
+
+img{
+    width: 450px;
+}
+.template-details-block{
+    padding: 5%;
+}
+.template-display-header{
+    padding: 20px 0;
+    border-bottom: 5px solid #10365c;
+    max-width: 50%;
+}
+.template-display-header > h1{
+    font-size: 45px;
+    max-width: 50%;
+    letter-spacing: 0;
+}
+.template-display-header > p{
+    letter-spacing: 2px;
+}
+.space-box{
+    margin-bottom: 20px;
+}
+.midi-space-box{
+    margin-bottom:10px;
+}
+.mini-space-box{
+    margin-bottom: 5px;
+}
+.personal-profile-block{
+    max-width: 80%;
+    /* padding-left: 20px;
+     */
+}
+.personal-profile-block > h3{
+    color: #10365c;
+}
+
+p{
+    font-size: 14px;
+}
+p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.template-text-wrapper{
+    width: 55%;
+    padding-left: 10px;
+}
+.work-experience-block{
+    max-width: 70%;
+    margin-bottom: 100px;
+}
+
+.work-experience-block >.experience-block > h2,
+.work-experience-block > h2{
+padding: 10px 0 10px 30px;
+font-size: 18px;
+background-color: #ced7db;
+text-transform: uppercase;
+}
+.work-experience-block > p{
+    color:#0c1b2a;
+}
+.experience-block{
+    margin-bottom: 30px;
+}
+
+ul.job-description{
+    list-style: none;
+}
+ul li {
+    color:#0c1b2a;
+}
